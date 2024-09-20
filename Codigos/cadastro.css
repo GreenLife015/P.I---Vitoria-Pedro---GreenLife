@@ -1,0 +1,50 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-cadastro{
+    text-align: center;
+    
+}
+header {
+    background-color: #1B632B;
+    width: 100%;
+    display: grid;
+  justify-content: center;
+    
+}
+
+.logo-principal {
+margin: 5px;
+padding: 3px;
+text-align: center;
+
+}
+.inpNome{
+    border-radius: 15px;
+    width: 75%;
+}
+.inpEmail{
+    border-radius: 15px;
+    width: 75%;
+}
+.inpTelefone{
+    border-radius: 15px;
+    width: 75%;
+}
+.inpCPF{
+    border-radius: 15px;
+    width: 75%;
+}
+.inpSenha{
+    border-radius: 15px;
+    width: 75%;
+    border: 0.1 solid black;
+}
+.spacer{
+    padding-bottom: 75px;
+}
