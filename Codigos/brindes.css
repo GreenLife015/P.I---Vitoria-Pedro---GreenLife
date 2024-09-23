@@ -80,6 +80,13 @@
     width: 10%;
     height: 25%;
 }
+.carrinhoIcons{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    margin: 5px;
+    height: 10px;
+}
 
 hr {
     margin-top: 25px;
@@ -96,8 +103,8 @@ hr {
 }
 
 .brinde {
-    width: 4rem;
-    width: 8rem;
+    width: 10rem;
+    height: 16rem;
     border: solid black 1px;
     font-size: 15px;
     border-radius: 5px;
@@ -116,9 +123,7 @@ hr {
 .brinde img {
     margin: auto;
     width: 100%;
-}
-.brinde .brindeCursos{
-    width: 100%;
+    height: 63%;
 }
 
 .brinde h5{
@@ -128,16 +133,18 @@ hr {
     margin-top: -0.5rem ;
 }
 
-.pontosBrinde {
+.pontosBrinde{
     width: 50px;
     display: flex;
     margin-top: 1.5rem ;
     margin: auto;
+    margin-top: auto;
 }
 
 .pontosBrinde img {
     width: 20px;
     height: 20px;
+    margin-bottom: 0px;
 }       
 .spacer{
     padding-bottom: 75px;

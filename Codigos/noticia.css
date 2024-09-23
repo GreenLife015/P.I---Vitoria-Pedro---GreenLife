@@ -1,7 +1,13 @@
-@media (min-width: 320px) and (max-width: 1024px){
-    body{
+@media (min-width: 350px) and (max-width: 1024px){
+
+    body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         margin: 0;
+        font-family: Arial, sans-serif;
     }
+    
     header {
         background-color: #1B632B;
         width: 100%;
@@ -16,6 +22,29 @@
     text-align: center;
     
 }
+.ttulo{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+}
+.img-principal{
+    text-align: center;
+
+}
+.info{
+    text-align: center;
+    padding: 8px;
+}
+.frase{
+    text-align: center;
+    font-size: 15px;
+}
+
 .spacer{
     padding-bottom: 75px;
 }
@@ -39,5 +68,4 @@ footer{
     padding: 25px;
     padding-top: 5px;
 }
-
 }
