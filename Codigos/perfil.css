@@ -73,25 +73,34 @@
 .dados-pessoais{
     margin: 5px;
 }
-.desafio{
-    width: 85%;
-    background-color: #D9D9D9;
-    border-radius: 13px;
+.carrinho button{
+    background-color: #1B632B;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    height: 60%;
     margin: auto;
-    margin-top: 10px;   
+    text-align: center;
 }
-.pontos{
-    width: 85%;
-    background-color: #D9D9D9;
-    border-radius: 15px;
+.carrinho{
     margin: auto;
-    margin-top: 10px;
+    text-align: center;
+    margin: 15px;
+
 }
-.pontos img{
-    margin-left: 5px;
+.entrar button{
+    background-color: #1B632B;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    text-align: center;
 }
-.desafio img{
-    margin-left: 5px;
+.entrar{
+    margin: auto;
+    text-align: center;
+    margin: 15px;
 }
 .tit-redes{
     text-align: center;

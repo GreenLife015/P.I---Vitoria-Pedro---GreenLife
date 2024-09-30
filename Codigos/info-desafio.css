@@ -37,20 +37,15 @@
         height: 50%;
     }
 
-    .infos .infosPontos {
+    .infos{
+        margin: auto;
         display: flex;
-        flex-direction: row;
+        flex: row;
     }
 
-    .infos {
-        display: flex;
-        align-items: center;
-        width: 80%;
-        padding: 0 20px;
-        border: solid black 0.1px;
-        margin: auto;
-        flex-direction: column;
-    }
+
+
+
 
     button {
         background-color: #1B632B;

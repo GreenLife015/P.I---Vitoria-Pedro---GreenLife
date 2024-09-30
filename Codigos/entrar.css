@@ -16,6 +16,25 @@
     text-align: center;
     
 }
+.titulo{
+    text-align: center;
+}
+.email label{
+   
+    font-size: 20px;
+}
+.email{
+    margin: auto;
+    
+    margin-top: 15%;
+}
+.email input{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    border: solid black 0.1px;
+}
 .spacer{
     padding-bottom: 75px;
 }
