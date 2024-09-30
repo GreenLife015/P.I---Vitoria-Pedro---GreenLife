@@ -1,73 +1,92 @@
-@media (min-width: 320px) and (max-width: 1024px){
-    body{
+@media (min-width: 320px) and (max-width: 1024px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         margin: 0;
+        font-family: Arial, sans-serif;
     }
+
     header {
         background-color: #1B632B;
         width: 100%;
         display: grid;
-      justify-content: center;
-        
+        justify-content: center;
+
     }
-    
+
     .logo-principal {
-    margin: 5px;
-    padding: 3px;
-    text-align: center;
-    
-}
-.titulo{
-    text-align: center;
-}
-.img-desafio{
-    width: 78%;
-    margin: auto;
-    border-radius: 15px;
-}
-.img-desafio img{
-    width: 100%;
-    height: 50%;
-}
-.infos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    padding: 0 20px;
-    border: solid black 0.1px;
-    margin: auto;
-  }
- button{
-    background-color: #1B632B;
-    margin: auto;justify-content: center;
- }
-  
-  
-  
+        margin: 5px;
+        padding: 3px;
+        text-align: center;
 
-  
+    }
 
-.spacer{
-    padding-bottom: 75px;
-}
-footer{
-    width: 100%;
-    background-color: #1B632B;
-    height: 50px;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
-.rodape{
-    display: flex;
-    align-items: center;
-    align-items: center;
-    justify-content: center;
+    .titulo {
+        text-align: center;
+    }
 
-}
-.rodape img{
-    display: inline-flex;
-    padding: 25px;
-    padding-top: 5px;
-}
+    .img-desafio {
+        width: 78%;
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    .img-desafio img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .infos .infosPontos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .infos {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        padding: 0 20px;
+        border: solid black 0.1px;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    button {
+        background-color: #1B632B;
+        margin: auto;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    .spacer {
+        padding-bottom: 75px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #1B632B;
+        height: 50px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+
+    .rodape {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .rodape img {
+        display: inline-flex;
+        padding: 25px;
+        padding-top: 5px;
+    }
 }

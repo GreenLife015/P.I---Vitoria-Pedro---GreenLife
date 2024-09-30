@@ -19,37 +19,42 @@ padding: 3px;
 text-align: center;
 
 }
-.pontos{
+.pontos {
     width: 85%;
     height: 65px;
     border: 0.5px solid black;
     border-radius: 5px;
     margin: auto;
-    margin-top:50px;
+    margin-top: 50px;
     display: flex;
 
 }
-.pontos h4{
+
+.pontos h4 {
     margin: 1px;
-   padding: 3px;
+    padding: 3px;
 }
-.pontos h5{
+
+.pontos h5 {
     margin-left: -83px;
 }
-.iconIMG{
+
+.iconIMG {
     height: 98%;
     width: 65px;
     border: 0.5px solid black;
     border-radius: 5px;
     margin: 0.4px;
-        
+
 }
-.IconPontos{
+
+.IconPontos {
     width: 50px;
     margin: 5px;
-    height:50px;
+    height: 50px;
 }
-.barraPontos{
+
+.barraPontos {
     border-radius: 5px;
     background-color: #c0bfbf;
     border: 0.5px solid black;
@@ -58,16 +63,18 @@ text-align: center;
     margin-top: 45px;
     margin-left: -50px;
 }
-.pontosGanhos{
+
+.pontosGanhos {
     width: 60%;
     background-color: #1B632B;
     height: 100%;
     border-radius: 5px;
 }
-.imgcarinho{
-    margin: 5px;
+
+.carrinhoIcon img {
     width: 10%;
-    height: 25%;
+    position: absolute;
+    right: 8%;
 }
 .tituloDesafioDia{
     text-align: center;
