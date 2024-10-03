@@ -8,7 +8,6 @@ body{
 
 .menu-cadastro{
     text-align: center;
-    
 }
 header {
     background-color: #1B632B;
@@ -24,27 +23,41 @@ padding: 3px;
 text-align: center;
 
 }
-.inpNome{
-    border-radius: 15px;
-    width: 75%;
+.infos input{
+    width: 80%;
+    height: 2.5cap;
+    border: gray 2px solid;
+    border-radius: 5px;
+    
 }
-.inpEmail{
-    border-radius: 15px;
-    width: 75%;
+.infos h5{
+    text-align: left;
+    margin-left: 10%;
 }
-.inpTelefone{
-    border-radius: 15px;
-    width: 75%;
-}
-.inpCPF{
-    border-radius: 15px;
-    width: 75%;
-}
-.inpSenha{
-    border-radius: 15px;
-    width: 75%;
-    border: 0.1 solid black;
+.infos button{
+    width: 80%;
+    border: 2px solid black;
 }
 .spacer{
     padding-bottom: 75px;
+}
+footer{
+    width: 100%;
+    background-color: #1B632B;
+    height: 50px;
+    position: fixed ;
+    right: 0;
+    bottom: 0;
+}   
+.rodape{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.rodape img{
+    display: inline-flex;
+    padding: 25px;
+    padding-top: 5px;
 }
