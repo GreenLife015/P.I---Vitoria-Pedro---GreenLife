@@ -73,21 +73,7 @@
 .dados-pessoais{
     margin: 5px;
 }
-.carrinho button{
-    background-color: #1B632B;
-    border: 0.1px solid black;
-    border-radius: 5px;
-    width: 90%;
-    height: 60%;
-    margin: auto;
-    text-align: center;
-}
-.carrinho{
-    margin: auto;
-    text-align: center;
-    margin: 15px;
 
-}
 .entrar button{
     background-color: #1B632B;
     border: 0.1px solid black;
